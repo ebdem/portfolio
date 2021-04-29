@@ -1,3 +1,8 @@
+import MenuComponent from "../components/menu";
 export default function Home() {
-  return <div>Ebubekir</div>;
+  return (
+    <div>
+      <MenuComponent />
+    </div>
+  );
 }
