@@ -12,7 +12,7 @@ export default function MenuComponent() {
           <div>
             <h2
               onClick={() => router.push("/")}
-              className="cursor-pointer p-7 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-white font-bold font-sans text-2xl"
+              className="cursor-pointer p-7 bg-gradient-to-r from-gray-100  to-gray-500 text-white font-bold font-sans text-2xl"
             >
               EBDEM
             </h2>
@@ -64,9 +64,9 @@ export default function MenuComponent() {
           style={{
             width: "80%",
           }}
-          className="fixed mb-4 bg-gradient-to-r from-red-500 via-pink-500 to-purple-400 p-11 text-center z-50  text-white font-bold font-serif text-2xl"
+          className="fixed mb-4 bg-gradient-to-r from-gray-500  to-gray-100 p-11 text-center z-50  text-white font-bold font-serif text-2xl"
         />
-        <div className="z-20    ml-2 mt-24   overscroll-y-auto rounded">
+        <div className="z-20 ml-2 mt-24 overscroll-y-auto rounded">
           <FirstScreen />
         </div>
       </div>
