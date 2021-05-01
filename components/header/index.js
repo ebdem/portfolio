@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 export default function HeaderComponent() {
   const router = useRouter();
   return (
-    <div className="bg-white">
+    <div className="bg-white border-b border-gray-300">
       {/* Code block starts */}
       <div className="pt-2 container px-6 mx-auto flex flex-col md:flex-row items-start md:items-center justify-between pb-4 ">
         <div>

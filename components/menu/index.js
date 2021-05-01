@@ -21,7 +21,7 @@ export default function MenuComponent({ children }) {
               <img
                 className=" mx-5 my-8 rounded-lg cursor-pointer"
                 src="/support-center.svg"
-                alt="image"
+                alt="true"
               />
             </Link>
             <div className="flex flex-col">
@@ -44,7 +44,7 @@ export default function MenuComponent({ children }) {
             position: "absolute",
           }}
         >
-          <div className="z-20 ml-4 mt-24  overscroll-y-auto rounded">
+          <div className="z-20 ml-4 mt-4  overscroll-y-auto rounded">
             {children}
           </div>
           <div className="absolute bottom-0  w-full ">
