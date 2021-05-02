@@ -1,5 +1,12 @@
 import Link from "next/link";
-export default function BlogComponent({ image, title, content, author, job }) {
+export default function BlogComponent({
+  image,
+  title,
+  content,
+  author,
+  job,
+  date,
+}) {
   return (
     <figure className="md:flex bg-gray-100 rounded-xl p-8 md:p-0 w-5/6 mx-auto mb-3">
       <img
@@ -21,6 +28,7 @@ export default function BlogComponent({ image, title, content, author, job }) {
         <figcaption className="font-medium">
           <div className="text-cyan-600">{author}</div>
           <div className="text-gray-500">{job}</div>
+          <div className="text-purple-500">{date}</div>
         </figcaption>
       </div>
     </figure>
