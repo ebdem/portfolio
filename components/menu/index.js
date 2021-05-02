@@ -21,11 +21,12 @@ export default function MenuComponent({ children }) {
               <img
                 className=" mx-5 my-8 rounded-lg cursor-pointer"
                 src="/support-center.svg"
-                alt="true"
               />
             </Link>
             <div className="flex flex-col">
-              <ButtonComponent name="Blog" />
+              <Link href="/blog">
+                <ButtonComponent name="Blog" />
+              </Link>
               <Link href="/about">
                 <ButtonComponent name="About" />
               </Link>

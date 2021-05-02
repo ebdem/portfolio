@@ -18,7 +18,7 @@ export default function HeaderComponent() {
         <div className="mt-6 md:mt-0">
           <button
             onClick={() => router.push("https://github.com/ebdem")}
-            className="mr-3 bg-gray-200 dark:bg-gray-700 focus:outline-none transition duration-150 ease-in-out rounded hover:bg-gray-300 text-black dark:hover:bg-gray-600 dark:text-black px-5 py-2 text-lg"
+            className="mr-3  dark:bg-gray-700 focus:outline-none transition duration-150 ease-in-out rounded hover:bg-black hover:text-white text-black dark:hover:bg-gray-600 dark:text-black px-5 pt-2 pb-3 text-lg"
           >
             <GithubOutlined />
           </button>
@@ -28,7 +28,7 @@ export default function HeaderComponent() {
                 "https://www.linkedin.com/in/ebubekir-demiray-6170941a6/"
               )
             }
-            className="mr-3 bg-gray-200 dark:bg-gray-700 focus:outline-none transition duration-150 ease-in-out rounded hover:bg-gray-300 text-indigo-700 dark:hover:bg-gray-600 dark:text-indigo-600 px-5 py-2 text-lg"
+            className="mr-3 dark:bg-gray-700 focus:outline-none transition duration-150 ease-in-out rounded hover:bg-blue-500 hover:text-white text-blue-500 dark:hover:bg-gray-600 dark:text-indigo-600 px-5 pt-2 pb-3 text-lg"
           >
             <LinkedinOutlined />
           </button>
