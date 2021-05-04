@@ -32,7 +32,8 @@ export default function Blog() {
           {newArr.map((post) => {
             return (
               <BlogComponent
-                key={post.content}
+                _id={post._id}
+                key={post._id}
                 image={post.image ? post.image : "/1.svg"}
                 content={post.content?.substring(0, 100) + "..."}
                 title={post.title}
